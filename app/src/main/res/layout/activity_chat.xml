@@ -7,14 +7,15 @@
     tools:context=".ChatActivity">
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/chatRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
         android:layout_marginBottom="45dp"
-        android:id="@+id/chatRecyclerView"
         android:background="@color/grayDark">
 
 
@@ -55,6 +56,13 @@
                 android:layout_height="50dp"
                 android:src="@drawable/ic_email_button"
                 android:onClick="OpenEmail"/>
+
+            <ImageButton
+                android:id="@+id/signOutButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_logout_button"
+                android:onClick="LogUserOut"/>
 
         </LinearLayout>
 
