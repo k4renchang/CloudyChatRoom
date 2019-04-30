@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "404786547463",
+    "firebase_url": "https://cloudy-chat-room-429d7.firebaseio.com",
+    "project_id": "cloudy-chat-room-429d7",
+    "storage_bucket": "cloudy-chat-room-429d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404786547463:android:a91d55b7a0b1b47f",
+        "android_client_info": {
+          "package_name": "com.example.cloudychatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404786547463-3qn8nk44t5l5hln72bubnktppuofoaau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBukb2UHXWG5MMUUTFO1wEe6R3wLLAQVZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404786547463-3qn8nk44t5l5hln72bubnktppuofoaau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
